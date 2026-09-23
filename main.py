@@ -1,6 +1,7 @@
 def show_message(func):
     def wrapper():
         print("starting...")
+        print("hooora...")
         func()
         print("finished!")
     return wrapper
