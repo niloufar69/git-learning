@@ -4,6 +4,7 @@ def show_message(func):
         print("hooora...")
         func()
         print("finished!")
+        print("tesssst")
     return wrapper
 #Decorator
 @show_message
